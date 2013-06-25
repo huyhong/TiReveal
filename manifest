@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 0.1
+apiversion: 2
+description: http://k0suke.be/post/52204680895/using-reveal-app-in-titanium-mobile
+author: Huy Hong
+license: Specify your license
+copyright: Copyright (c) 2013 by Your Company
+
+
+# these should not be edited
+name: TiReveal
+moduleid: com.revealapp.ti
+guid: 95521e79-d25d-47b4-b29c-16fc79fd6394
+platform: iphone
+minsdk: 3.1.1.GA
