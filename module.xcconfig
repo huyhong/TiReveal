@@ -10,7 +10,7 @@
 //
 // How to add a Framework (example)
 //
-// OTHER_LDFLAGS=$(inherited) -framework Foo
+OTHER_LDFLAGS=$(inherited) -framework Reveal -F "/Applications/Reveal.app/Contents/SharedSupport/iOS-Libraries/Reveal.framework"
 //
 // Adding a framework for a specific version(s) of iPhone:
 //
