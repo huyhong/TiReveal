@@ -22,9 +22,9 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		1DA56DBF177BA1A600B2A46F /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA56DBE177BA1A600B2A46F /* Reveal.framework */; };
 		1DEAD255177A55D4003DCCF0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DEAD254177A55D4003DCCF0 /* QuartzCore.framework */; };
 		1DEAD257177A55DA003DCCF0 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DEAD256177A55DA003DCCF0 /* CFNetwork.framework */; };
-		1DEAD259177A55E7003DCCF0 /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DEAD258177A55E7003DCCF0 /* Reveal.framework */; };
 		24DD6CF91134B3F500162E58 /* ComRevealappTiModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* ComRevealappTiModule.h */; };
 		24DD6CFA1134B3F500162E58 /* ComRevealappTiModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* ComRevealappTiModule.m */; };
 		24DE9E1111C5FE74003F90F6 /* ComRevealappTiModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* ComRevealappTiModuleAssets.h */; };
@@ -44,9 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1DA56DBE177BA1A600B2A46F /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reveal.framework; path = "../../../../../Applications/Reveal.app/Contents/SharedSupport/iOS-Libraries/Reveal.framework"; sourceTree = "<group>"; };
 		1DEAD254177A55D4003DCCF0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		1DEAD256177A55DA003DCCF0 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		1DEAD258177A55E7003DCCF0 /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
 		24DD6CF71134B3F500162E58 /* ComRevealappTiModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComRevealappTiModule.h; path = Classes/ComRevealappTiModule.h; sourceTree = "<group>"; };
 		24DD6CF81134B3F500162E58 /* ComRevealappTiModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComRevealappTiModule.m; path = Classes/ComRevealappTiModule.m; sourceTree = "<group>"; };
 		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DEAD259177A55E7003DCCF0 /* Reveal.framework in Frameworks */,
+				1DA56DBF177BA1A600B2A46F /* Reveal.framework in Frameworks */,
 				1DEAD257177A55DA003DCCF0 /* CFNetwork.framework in Frameworks */,
 				1DEAD255177A55D4003DCCF0 /* QuartzCore.framework in Frameworks */,
 				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
@@ -83,7 +83,7 @@
 		0867D691FE84028FC02AAC07 /* TiReveal */ = {
 			isa = PBXGroup;
 			children = (
-				1DEAD258177A55E7003DCCF0 /* Reveal.framework */,
+				1DA56DBE177BA1A600B2A46F /* Reveal.framework */,
 				1DEAD256177A55DA003DCCF0 /* CFNetwork.framework */,
 				1DEAD254177A55D4003DCCF0 /* QuartzCore.framework */,
 				08FB77AEFE84172EC02AAC07 /* Classes */,
@@ -228,6 +228,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(SYSTEM_APPS_DIR)/Reveal.app/Contents/SharedSupport/iOS-Libraries\"",
 				);
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -269,6 +270,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(SYSTEM_APPS_DIR)/Reveal.app/Contents/SharedSupport/iOS-Libraries\"",
 				);
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_MODEL_TUNING = G5;
